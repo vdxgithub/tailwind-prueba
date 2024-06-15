@@ -1,0 +1,11 @@
+/* src/styles/global.css */
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-image: url('./imagenes/fondo.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
