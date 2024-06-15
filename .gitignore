@@ -1,6 +1,7 @@
 # build output
 dist/
 .idx
+.vscode
 
 # generated types
 .astro/
