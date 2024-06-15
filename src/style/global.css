@@ -1,11 +1,29 @@
 /* src/styles/global.css */
-body, html {
+html, body {
     height: 100%;
     margin: 0;
     padding: 0;
-    background-image: url('./imagenes/fondo.png');
+}
+
+body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    min-height: 100vh; /* Asegura que el fondo cubra toda la altura de la ventana */
 }
+
+/* Fondo para pantallas de escritorio */
+@media (min-width: 768px) {
+    body {
+        background-image: url('/imagenes/fondo-desktop.png');
+    }
+}
+
+/* Fondo para pantallas móviles */
+@media (max-width: 767px) {
+    body {
+        background-image: url('/imagenes/fondo-phone.png');
+    }
+}
+
