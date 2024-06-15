@@ -2,6 +2,7 @@
 dist/
 .idx
 .vscode
+pnpm-lock.yaml
 
 # generated types
 .astro/
