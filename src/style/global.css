@@ -11,6 +11,12 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     min-height: 100vh; /* Asegura que el fondo cubra toda la altura de la ventana */
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1; /* Permite que el contenido principal crezca para llenar el espacio disponible */
 }
 
 /* Fondo para pantallas de escritorio */
@@ -26,4 +32,3 @@ body {
         background-image: url('/imagenes/fondo-phone.png');
     }
 }
-
