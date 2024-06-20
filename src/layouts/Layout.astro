@@ -5,6 +5,7 @@ interface Props {
 
 const { title } = Astro.props;
 
+import Header from '../components/Header/header.astro';
 import '../style/global.css'
 ---
 
@@ -19,7 +20,10 @@ import '../style/global.css'
 		<title>{title}</title>
 	</head>
 	<body>
+		<main>
+		<Header />
 		<slot />
+	</main>
 	</body>
 </html>
 <style is:global>

@@ -1,62 +1,19 @@
 ---
-import Layout from '../layouts/Layout.astro';
-import Card from '../components/Card.astro';
-import Header from '../components/Header/header.astro';
+import Card from "../Card.astro"
 ---
 
-<Layout title="vDx Web.">
-	<main>
-		<svg
-			class="astro-a"
-			width="495"
-			height="623"
-			viewBox="0 0 495 623"
-			fill="none"
-			xmlns="http://www.w3.org/2000/svg"
-			aria-hidden="true"
-		>
-		</svg>
-		<h1><p class= "animate-blurred-fade-in">Bienbenidos a <span class="text-gradient">vDx 2.0</p></p></span></h1>
-		<ul role="list" class="link-card-grid">
-			<Card
-				href="info"
-				title="Info"
-				body="Info sobre vDx."
-			/>
-			<Card
-				href="entrar-a-vdx-minecraft"
-				title="Ir a vDx Minecraft"
-				body="Aqui podras ir a vDx Minecraft."
-			/>
-			<Card
-				href="ip-de-vdx-minecraft"
-				title="Ip"
-				body="La ip de minecraft de vDx."
-			/>
-			<Card
-				href="version"
-				title="Version"
-				body="Version Actual"
-				/>
-			<Card
-				href="version"
-				title="Version"
-				body="Version Actual"
-				/>
-			<Card
-				href="version"
-				title="Version"
-				body="Version Actual"
-				/>
-			</ul>
-			<Card
-			href="https://webs-anto.vercel.app/"
-			title="Version"
-			body="Version Actual"
-			/>
-		</main>
-	</Layout>
-
+<header class="py-8 px-4 mx-auto max-w-xl lg:py-16 lg:px-16">
+    <div class="mx-auto text-center mb-8">
+        <h1 class="text-5xl font-bold text-white lg:text-5xl"><span class= "text-gradient">vDx Web</span></h1>
+        <h1></h1>
+        <ul role="list" class="link-card-grid">
+            <Card
+                href="/"
+                title="Inicio"
+                body="Ir a inicio"
+            />
+        </ul>
+</header>
 <style>
 	main {
 		margin: auto;

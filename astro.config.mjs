@@ -9,5 +9,5 @@ import vercel from "@astrojs/vercel/serverless";
 export default defineConfig({
   integrations: [tailwind(), tailwindConfigViewer()],
   output: "server",
-  adapter: cloudflare(),
+  adapter: vercel(),
 });
