@@ -3,6 +3,8 @@ dist/
 .idx
 .vscode
 pnpm-lock.yaml
+src/pages/dev.astro
+src/pages/dev2.astro
 
 # generated types
 .astro/
