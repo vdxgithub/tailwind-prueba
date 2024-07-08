@@ -1,0 +1,24 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import Card from "../../components/Card.astro";
+
+import '../../style/global2.css'
+---
+<Layout title="Redirigir a anto web">
+    <h1>Quieres ir a <span class="text-gradient">Anto Web</span></h1>
+    <ul role="list" class="link-card-grid">
+        <img src="/imagenes/me.webp" />
+        <Card
+            href="https://miweb.vdxdev.es"
+            title="Si"
+            body="Ir a la web de Antolin"
+        />
+        <Card
+            href="/"
+            title="No"
+            body="Volver a la pagina principal"
+            />
+            <img src="/imagenes/me.webp" />
+    </ul>
+            <h1 class="h-56"></h1>
+</Layout>

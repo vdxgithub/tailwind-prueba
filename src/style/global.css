@@ -1,4 +1,10 @@
 body {
     background: linear-gradient(to right, rgb(39, 168, 36), white);
   }
-  
+
+img {
+  mask-image: linear-gradient(
+    black 80%,
+    transparent
+  )
+}
